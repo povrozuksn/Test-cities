@@ -1,0 +1,312 @@
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\root\source\repos\Test\bin\Debug\Test.exe, файл: c:\codeblocks\mingw\include\txlib.h, строка: 13628, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdRe0, Thread: 0x1388 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416F73 in C:\Users\root\source\repos\Test\bin\Debug\Test.exe: txBitBlt() at c:/codeblocks/mingw/include/txlib.h (13628)
+
+# 1 0x0041D648 in C:\Users\root\source\repos\Test\bin\Debug\Test.exe: main() at C:/Users/root/source/repos/Test/main.cpp (28):
+
+     26:     //Область картинки первого ответа размер 240х200
+     27:     txRectangle (30, 200, 270, 400);
+=>   28:     txBitBlt(txDC(), 30, 225, 240, 150, pic1);
+     29:     //Область картинки второго ответа
+     30:     txRectangle (280, 200, 520, 400);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	May 10 2024 18:02:47, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	May 10 2024 18:02:52
+
+Run file:	C:\Users\root\source\repos\Test\bin\Debug\Test.exe
+Directory:	C:\Users\root\source\repos\Test
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\root\source\repos\Test\bin\Debug\Test.exe, файл: c:\codeblocks\mingw\include\txlib.h, строка: 13628, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F52FC (32-bit), Flags: CMdRe0, Thread: 0x3D24 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416F73 in C:\Users\root\source\repos\Test\bin\Debug\Test.exe: txBitBlt() at c:/codeblocks/mingw/include/txlib.h (13628)
+
+# 1 0x0041DE6A in C:\Users\root\source\repos\Test\bin\Debug\Test.exe: main() at C:/Users/root/source/repos/Test/main.cpp (72):
+
+     70:         //Область картинки первого ответа
+     71:         txRectangle (30, 200, 270, 400);
+=>   72:         txBitBlt(txDC(), 30, 225, 240, 150, form.pic1);
+     73:         //Область картинки второго ответа
+     74:         txRectangle (280, 200, 520, 400);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	May 13 2024 18:14:12, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	May 13 2024 18:14:18
+
+Run file:	C:\Users\root\source\repos\Test\bin\Debug\Test.exe
+Directory:	C:\Users\root\source\repos\Test
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\root\source\repos\Test\bin\Debug\Test.exe, файл: c:\codeblocks\mingw\include\txlib.h, строка: 13628, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F52FC (32-bit), Flags: CMdRe0, Thread: 0x3D24 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416F73 in C:\Users\root\source\repos\Test\bin\Debug\Test.exe: txBitBlt() at c:/codeblocks/mingw/include/txlib.h (13628)
+
+# 1 0x0041DF4A in C:\Users\root\source\repos\Test\bin\Debug\Test.exe: main() at C:/Users/root/source/repos/Test/main.cpp (75):
+
+     73:         //Область картинки второго ответа
+     74:         txRectangle (280, 200, 520, 400);
+=>   75:         txBitBlt(txDC(), 280, 225, 240, 150, form.pic2);
+     76:         //Область картинки третьего ответа
+     77:         txRectangle (530, 200, 770, 400);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	May 13 2024 18:14:12, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	May 13 2024 18:14:18
+
+Run file:	C:\Users\root\source\repos\Test\bin\Debug\Test.exe
+Directory:	C:\Users\root\source\repos\Test
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\root\source\repos\Test\bin\Debug\Test.exe, файл: c:\codeblocks\mingw\include\txlib.h, строка: 13628, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F52FC (32-bit), Flags: CMdRe0, Thread: 0x2C44 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416F73 in C:\Users\root\source\repos\Test\bin\Debug\Test.exe: txBitBlt() at c:/codeblocks/mingw/include/txlib.h (13628)
+
+# 1 0x0041DE6A in C:\Users\root\source\repos\Test\bin\Debug\Test.exe: main() at C:/Users/root/source/repos/Test/main.cpp (72):
+
+     70:         //Область картинки первого ответа
+     71:         txRectangle (30, 200, 270, 400);
+=>   72:         txBitBlt(txDC(), 30, 225, 240, 150, form.pic1);
+     73:         //Область картинки второго ответа
+     74:         txRectangle (280, 200, 520, 400);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	May 13 2024 18:14:12, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	May 13 2024 18:14:41
+
+Run file:	C:\Users\root\source\repos\Test\bin\Debug\Test.exe
+Directory:	C:\Users\root\source\repos\Test
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\root\source\repos\Test\bin\Debug\Test.exe, файл: c:\codeblocks\mingw\include\txlib.h, строка: 13628, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F52FC (32-bit), Flags: CMdRe0, Thread: 0x2C44 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416F73 in C:\Users\root\source\repos\Test\bin\Debug\Test.exe: txBitBlt() at c:/codeblocks/mingw/include/txlib.h (13628)
+
+# 1 0x0041DF4A in C:\Users\root\source\repos\Test\bin\Debug\Test.exe: main() at C:/Users/root/source/repos/Test/main.cpp (75):
+
+     73:         //Область картинки второго ответа
+     74:         txRectangle (280, 200, 520, 400);
+=>   75:         txBitBlt(txDC(), 280, 225, 240, 150, form.pic2);
+     76:         //Область картинки третьего ответа
+     77:         txRectangle (530, 200, 770, 400);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	May 13 2024 18:14:12, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	May 13 2024 18:14:41
+
+Run file:	C:\Users\root\source\repos\Test\bin\Debug\Test.exe
+Directory:	C:\Users\root\source\repos\Test
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\root\source\repos\Test\bin\Debug\Test.exe, файл: c:\codeblocks\mingw\include\txlib.h, строка: 13628, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#3: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F52FC (32-bit), Flags: CMdRe0, Thread: 0x2C44 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416F73 in C:\Users\root\source\repos\Test\bin\Debug\Test.exe: txBitBlt() at c:/codeblocks/mingw/include/txlib.h (13628)
+
+# 1 0x0041E02A in C:\Users\root\source\repos\Test\bin\Debug\Test.exe: main() at C:/Users/root/source/repos/Test/main.cpp (78):
+
+     76:         //Область картинки третьего ответа
+     77:         txRectangle (530, 200, 770, 400);
+=>   78:         txBitBlt(txDC(), 530, 225, 240, 150, form.pic3);
+     79: 
+     80:         //Область текста первого ответа
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	May 13 2024 18:14:12, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	May 13 2024 18:14:41
+
+Run file:	C:\Users\root\source\repos\Test\bin\Debug\Test.exe
+Directory:	C:\Users\root\source\repos\Test
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\root\source\repos\Test\bin\Debug\Test.exe, файл: c:\codeblocks\mingw\include\txlib.h, строка: 13628, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#4: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F52FC (32-bit), Flags: CMdRe0, Thread: 0x2C44 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416F73 in C:\Users\root\source\repos\Test\bin\Debug\Test.exe: txBitBlt() at c:/codeblocks/mingw/include/txlib.h (13628)
+
+# 1 0x0041DE6A in C:\Users\root\source\repos\Test\bin\Debug\Test.exe: main() at C:/Users/root/source/repos/Test/main.cpp (72):
+
+     70:         //Область картинки первого ответа
+     71:         txRectangle (30, 200, 270, 400);
+=>   72:         txBitBlt(txDC(), 30, 225, 240, 150, form.pic1);
+     73:         //Область картинки второго ответа
+     74:         txRectangle (280, 200, 520, 400);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	May 13 2024 18:14:12, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	May 13 2024 18:14:41
+
+Run file:	C:\Users\root\source\repos\Test\bin\Debug\Test.exe
+Directory:	C:\Users\root\source\repos\Test
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\root\source\repos\Test\bin\Debug\Test.exe, файл: c:\codeblocks\mingw\include\txlib.h, строка: 13628, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F52FC (32-bit), Flags: CMdRe0, Thread: 0x1DF0 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416F73 in C:\Users\root\source\repos\Test\bin\Debug\Test.exe: txBitBlt() at c:/codeblocks/mingw/include/txlib.h (13628)
+
+# 1 0x0041DE30 in C:\Users\root\source\repos\Test\bin\Debug\Test.exe: main() at C:/Users/root/source/repos/Test/main.cpp (62):
+
+     60:         //Область картинки первого ответа
+     61:         txRectangle (30, 200, 270, 400);
+=>   62:         txBitBlt(txDC(), 30, 225, 240, 150, form.pic1);
+     63:         //Область картинки второго ответа
+     64:         txRectangle (280, 200, 520, 400);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	May 13 2024 18:18:30, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	May 13 2024 18:18:36
+
+Run file:	C:\Users\root\source\repos\Test\bin\Debug\Test.exe
+Directory:	C:\Users\root\source\repos\Test
+
+--------------------------------------------------
